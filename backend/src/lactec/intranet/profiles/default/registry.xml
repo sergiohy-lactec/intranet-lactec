@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+
+  <!-- Título do portal -->
+  <record name="plone.site_title">
+    <value>Intranet Lactec</value>
+  </record>
+
+  <!-- Usuário do Twitter (campo social simples) -->
+  <record name="plone.twitter_username">
+    <value>sergiohy7</value>
+  </record>
+
+  <!-- Configurações básicas de e-mail (Plone 6) -->
+  <records interface="plone.base.interfaces.controlpanel.IMailSchema">
+    <value key="smtp_host">smtp.exemplo.com</value>
+    <value key="smtp_port">25</value>
+    <value key="email_from_address">portal@exemplo.com</value>
+    <value key="email_from_name">Portal Plone</value>
+  </records>
+
+  <!-- Navegação -->
+  <record name="plone.navigation_depth">
+    <value>4</value>
+  </record>
+
+</registry>
