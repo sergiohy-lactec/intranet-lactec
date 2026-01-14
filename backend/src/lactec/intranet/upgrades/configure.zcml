@@ -43,4 +43,16 @@
         import_steps="rolemap"
         />
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      profile="lactec.intranet:default"
+      source="20260113002"
+      destination="20260114001"
+      >
+    <genericsetup:upgradeDepends
+        title="Adiciona behaviors ao tipo Área"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
 </configure>
