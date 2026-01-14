@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <version>20260114002</version>
+  <version>20260114003</version>
   <dependencies>
     <dependency>profile-plone.volto:default</dependency>
   </dependencies>
-  <description>Portal Lactec Intranet criado para o treinamento</description>
 </metadata>

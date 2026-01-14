@@ -1,7 +1,14 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
   <!-- Indexers/Metadata -->
+  <adapter
+      factory=".pessoa.area_indexer"
+      name="area"
+      />
 
-  <!-- -*- extra stuff goes here -*- -->
+  <adapter
+      factory=".pessoa.cargo_indexer"
+      name="cargo"
+      />
 
 </configure>
